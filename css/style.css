@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #686767a8;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+
+}
+/* nav hambur */
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+footer {
+    background-color: #f8f4f4;
+    position: baseline;
+    text-align: center;
+    bottom: 1px;
+    width: 100%;
+}
+h1, h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.TextCarrousel{
+  background-color: #ffffff7e;
+}
+.textInicio{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 750px){
+  .logo{
+    width: 50%;
+    height: 40%;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+  .inicio{
+    display:flex ;
+    flex-direction: row;
+  }
+  .carousel{
+    grid-area: carousel;
+    width: 95%;
+    height: 85%;
+  }
+  .textInicio{
+    grid-area: textInicio;
+    margin: 0 20px;
+    display: block;
+    width: 50%;
+  }
+  .inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    /* margin: 0%;
+    display: grid;
+    grid-template-areas:
+       "carousel""textInicio";
+    grid-template-columns: 1fr 1fr; */
+  }
+}
