@@ -1,0 +1,30 @@
+@media screen and (min-width: 750px) {
+  .logo {
+    width: 50%;
+    height: 40%;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  .inicio {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+  }
+  .carousel {
+    grid-area: carousel;
+    width: 90%;
+    height: 95%;
+  }
+  .textInicio {
+    grid-area: textInicio;
+    margin-right: 5%;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=variables.css.map */

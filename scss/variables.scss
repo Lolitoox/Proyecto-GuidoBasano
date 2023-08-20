@@ -1,0 +1,38 @@
+$color_1: #333;
+$background-color_1: #686767a8;
+$background-color_2: white;
+$background-color_3: #ddd;
+$background-color_4: #f8f4f4;
+$background-color_5: #ffffff7e;
+
+@media screen and (min-width: 750px) {
+	.logo {
+		width: 50%;
+		height: 40%;
+		margin-top: 10px;
+		margin-left: 100px;
+	}
+
+	.inicio {
+		display: flex;
+		flex-direction: row;
+		display: flex;
+		flex-direction: row;
+		justify-content: baseline;
+	}
+
+	.carousel {
+		grid-area: carousel;
+		width: 90%;
+		height: 95%;
+	}
+
+	.textInicio {
+		grid-area: textInicio;
+		margin-right: 5%;
+		text-align: center;
+		position: relative;
+		display: block;
+		width: 50%;
+	}
+}

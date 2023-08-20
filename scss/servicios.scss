@@ -1,0 +1,56 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+p,
+img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.servicio {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+
+}
+
+.imgS,
+.imgH {
+    width: 80%;
+    height: 90%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.servicio p {
+    height: 50%;
+    overflow: hidden;
+    font-size: medium;
+}
+
+.bodyServ {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 750px) {
+    .bodyServ {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .servicio {
+        width: 50%;
+        height: 400px;
+    }
+}
